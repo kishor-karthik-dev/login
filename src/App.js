@@ -29,7 +29,7 @@ function App() {
             <input type='phoneNumber' placeholder='Number' required></input>
           </div>
           <div className='inputs'>
-          <BiShow onClick={() => { setShow(!show) }}className='icon' />
+          <BiShow className='icon' />
           <RiLockPasswordFill className='icon' />
             <input type='password' placeholder='password' required></input>
           </div>
